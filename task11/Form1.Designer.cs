@@ -1,0 +1,202 @@
+﻿namespace task11
+{
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            pictureBox1 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            pictureBox3 = new PictureBox();
+            pictureBox4 = new PictureBox();
+            pictureBox5 = new PictureBox();
+            pictureBox6 = new PictureBox();
+            button1 = new Button();
+            button2 = new Button();
+            label1 = new Label();
+            label2 = new Label();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Cursor = Cursors.Hand;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(12, 23);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(150, 150);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Cursor = Cursors.Hand;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(168, 23);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(150, 150);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 1;
+            pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Cursor = Cursors.Hand;
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(324, 23);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(150, 150);
+            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox3.TabIndex = 2;
+            pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.Cursor = Cursors.Hand;
+            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
+            pictureBox4.Location = new Point(168, 179);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(150, 150);
+            pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox4.TabIndex = 5;
+            pictureBox4.TabStop = false;
+            pictureBox4.Click += pictureBox4_Click;
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.Cursor = Cursors.Hand;
+            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
+            pictureBox5.Location = new Point(324, 179);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(150, 150);
+            pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox5.TabIndex = 4;
+            pictureBox5.TabStop = false;
+            pictureBox5.Click += pictureBox5_Click_1;
+            // 
+            // pictureBox6
+            // 
+            pictureBox6.Cursor = Cursors.Hand;
+            pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
+            pictureBox6.Location = new Point(12, 179);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(150, 150);
+            pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox6.TabIndex = 3;
+            pictureBox6.TabStop = false;
+            pictureBox6.Click += pictureBox6_Click;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(168, 372);
+            button1.Name = "button1";
+            button1.Size = new Size(140, 40);
+            button1.TabIndex = 6;
+            button1.Text = "Yeni oyun";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(324, 372);
+            button2.Name = "button2";
+            button2.Size = new Size(140, 40);
+            button2.TabIndex = 7;
+            button2.Text = "Cixis";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 14.25F);
+            label1.Location = new Point(23, 377);
+            label1.Name = "label1";
+            label1.Size = new Size(42, 25);
+            label1.TabIndex = 8;
+            label1.Text = "Xal:";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 14.25F);
+            label2.Location = new Point(92, 377);
+            label2.Name = "label2";
+            label2.Size = new Size(22, 25);
+            label2.TabIndex = 9;
+            label2.Text = "0";
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(489, 450);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Controls.Add(pictureBox4);
+            Controls.Add(pictureBox5);
+            Controls.Add(pictureBox6);
+            Controls.Add(pictureBox3);
+            Controls.Add(pictureBox2);
+            Controls.Add(pictureBox1);
+            Name = "Form1";
+            Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox4;
+        private PictureBox pictureBox5;
+        private PictureBox pictureBox6;
+        private Button button1;
+        private Button button2;
+        private Label label1;
+        private Label label2;
+    }
+}
